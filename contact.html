@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylespractice.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+
+    <form action="welcome.php" method="POST">
+      <div class="form-row">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+<br><br>
+    <table>
+      <thead>
+        <tr>
+          <th>Contact Method</th>
+          <th></th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Email</td>
+          <td>example@fakemail.com</td>
+          <td>24/7</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>123-456-7890</td>
+          <td>9am - 6pm</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>12345 Example Dr. <br>Filler, Ex 67890 </td>
+          <td>9am - 8pm</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+
+  <script src="slidesscript.js"></script>
+</body>
+</html>
