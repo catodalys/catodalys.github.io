@@ -117,3 +117,81 @@ nav ul li a:hover {
 main {
   padding: 20px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  /* Adjust layout for smaller screens (up to 600px wide) */
+  body {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .slideshow-container {
+    height: 300px;
+    width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Hide some elements at this screen size */
+  .form-row {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Adjust layout for even smaller screens (up to 400px wide) */
+  body {
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 5px;
+  }
+
+  header {
+    padding: 2px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .slideshow-container {
+    height: 200px;
+    width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Further hide some elements at this screen size */
+  .form-row {
+    display: none;
+  }
+
+  /* Modify image-paragraph layout */
+  .image-paragraph {
+    flex-direction: column-reverse;
+  }
+
+  .image-paragraph .image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
